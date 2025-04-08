@@ -99,11 +99,175 @@
 // printRangeDescending(a ,b);
 
 
-let a = prompt("1dan boshlen nechchigach busin kg")*1;
-let b = prompt("10gacha busin kg")*1;
-function candyPrices(a, b) {
-    for (let i = a; i <= b; i++) {
-        console.log(`${i} kg = ${a, b * i}`);
-    }
-}
-candyPrices(a, b);
+// let a = prompt("1dan boshlen nechchigach busin kg")*1;
+// let b = prompt("10gacha busin kg")*1;
+// function candyPrices(a, b) {
+//     for (let i = a; i <= b; i++) {
+//         console.log(`${i} kg = ${a, b * i}`);
+//     }
+// }
+// candyPrices(a, b);
+//
+// let a = ["adham", "Anvar", "aziz","Anvar"]
+// // a.push("Asil")
+// // a.pop()
+// // a.shift()
+// a.unshift("men Nodir akani shogirti man")
+// a.forEach(
+//     name => console.log(name+" yaxshi bola")
+// )
+// let b = a.map(
+//     name => {
+//         return name + " yaxshi bola" + name
+//     }
+//
+// )
+// console.log(b)
+//  let b = a.filter(
+//     name => {
+//         return name === "Anvar"
+//     }
+// )
+// console.log(b)
+
+// let b = a.find(
+//     name =>
+//     {
+//         return name === "Anvar"
+//     }
+// )
+// console.log(b)
+// console.log(a.includes("adham"))
+
+// // 1////////////
+// let a = []
+// a.push(1 , 2 ,3 ,4 , 5)
+// console.log(a)
+
+// // 2////////////
+// let a = [prompt("kitoblar")]
+// a.push("Yangi kitob")
+// console.log(a)
+
+// // 3////////////
+// let a = [prompt("Anvar / yoz ")]
+// a.push(prompt("Adhamni  ukasi / yoz"))
+// console.log(a)
+
+// // 4////////////
+// let a = ["Banan " , "Olma", "Nok", "Tarvuz"]
+// a.pop()
+// console.log(a)
+
+// // //5/////////
+// let a = ["Banan " , "Olma", "Nok", "Tarvuz"]
+// a.pop()
+// a.pop()
+// console.log(a)
+
+
+// // //6/////////
+// let a = ["Anvar"]
+// a.pop()
+// console.log(a)
+
+// //7/////////
+// let a = ["Adham", "Anvar", "aziz",]
+// a.shift()
+// console.log(a)
+
+// //8/////////
+// let a = [1 , 2 , 3 , 4, 5];
+// a.shift()
+// console.log(a);
+
+// //9/////////
+// let a = [1]
+// a.shift()
+// console.log(a)
+
+// //10/////////
+// let a = ["Anvar"]
+// a.unshift("Adham", "Aziz", "Asil")
+// console.log(a)
+
+// //11/////////
+// let a = ["Anvar", "Adham", "Aziz", "Asil"]
+// a.unshift("todo")
+// console.log(a)
+
+// //12/////////
+// let a = ["Anvar", "Adham", "Aziz", "Asil"]
+// a.unshift("jad ahsda sdahc ashf adafba hbzrg zsdhgbjs sgbskeuve shejsbg janvar haasbd")
+// console.log(a)
+
+// //13/////////
+// let a = [1,2,3,4,5,6,7,8]
+//  a.forEach(e => console.log(e ** 2))
+
+// //  //15/////////
+// // let a = ["Anvar", "Adham", "Aziz", "Asil"]
+// // a.forEach(e => console.log("Salom " +e))
+
+//  //16/////////
+// let a = [1,2,3,4,5,6,7]
+// let b = a.map(name => {
+//     return name ** 3
+// })
+// console.log(b)
+
+
+// //  //18/////////
+// let a = ["Anvar", "Adham"]
+// let b = a.map(name => name.toUpperCase())
+// console.log(b)
+
+//  //19/////////
+// let a = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// let b = a.filter(c => {
+//     return c % 2 === 0
+// })
+// console.log(b)
+
+//  //20/////////
+// let a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// let b = a.filter(e =>{
+//     return e >= 18
+// })
+// console.log(b)
+
+//  //22/////////
+// let a =[101, 100]
+// let b = a.find(e => {
+//     return e <= 100
+// })
+// console.log(b)
+
+
+//  //23/////////
+// let a =["Anvar", "ali", "ali"]
+// let b = a.find(e => {
+//     return e === "ali"
+// })
+// console.log(b)
+
+// //  //24/////////
+// let a = [98,99,100,101,102]
+// let b = a.find(w => {
+//     return w > 100
+// })
+// console.log(b)
+
+// // 25///////////////
+// let a = ["Vatanga tuyg'usi ", "Huquq kitobi"]
+// console.log(a.includes("JavaScript"))
+
+
+// //26///////////////
+// let a = ["gilos", "nok", "Tarvuz"]
+// console.log(a.includes("gilos"))
+
+
+// //27///////////////
+// let a = [1, 2, 3]
+// console.log(a.includes(2))
