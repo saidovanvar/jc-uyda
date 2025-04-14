@@ -97,8 +97,6 @@
 //     }
 // }
 // printRangeDescending(a ,b);
-
-
 // let a = prompt("1dan boshlen nechchigach busin kg")*1;
 // let b = prompt("10gacha busin kg")*1;
 // function candyPrices(a, b) {
@@ -268,6 +266,121 @@
 // console.log(a.includes("gilos"))
 
 
-// //27///////////////
+//27///////////////
 // let a = [1, 2, 3]
 // console.log(a.includes(2))
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////
+
+// 28/////////////////////
+// let a = [1,2,3,4,5]
+// console.log(a.length)
+
+// 29/////////////////////
+// let a = []
+// console.log(a.length)
+
+// 30/////////////////////
+// let a = ["a","b","c","d","e","f"];
+// console.log(a.length);
+
+// 31/////////////////////
+// let a = [1,2]
+// let b = [3,4]
+// console.log(a.concat(b))
+
+// 32/////////////////////
+// let a = ["a", "b"]
+// let b = ["a", "c"]
+// console.log(a.concat(b))
+
+// 33/////////////////////
+// let a = []
+// let b = [10,20,30,40,]
+// console.log(a.concat(b))
+
+// 34/////////////////////
+// let a = [10, 20, 30, 40, 50]
+// console.log(a.slice(1,4))
+
+// 35/////////////////////
+// let a = ["a","b","c","d","e"];
+// console.log(a.slice(3,5));
+
+// 36/////////////////////
+// let a = [1, 2, 3, 4, 5, 6]
+// console.log(a.slice(0,4))
+
+// 37/////////////////////
+// let a = [1, 2, 3,4];
+// a.splice(2, 1, 5,)
+// console.log(a)
+
+// 38/////////////////////
+// let a = ["a","b","c","d"];
+// a.splice(1, 2);
+// console.log(a)
+
+// 39/////////////////////
+// let a = [10,20,30]
+// a.splice(1, 1 , 25)
+// console.log(a)
+
+// 40/////////////////////
+// let a = [1,2,3,4,5]
+// a.fill(0, 0, 5)
+// console.log(a)
+
+// // 41/////////////////////
+// let a = [1, 2, 3,4,5]
+// a.fill(99, 1, 2)
+// console.log(a)
+
+// 42/////////////////////
+// let a = [1,2,3,4,5,6,7]
+// console.log(a.indexOf(6))
+
+// 43/////////////////////
+// let a = ["x", "y", "z"];
+// console.log(a.indexOf("a"));
+
+// 44/////////////////////
+// let a = [1, 2, 3,2,1];
+// console.log(a.indexOf(2));
+
+
+// 45/////////////////////
+// let a = [1, 2, 3]
+// console.log(a.toString())
+
+
+// 47/////////////////////
+// let a = [true, false]
+// console.log(a.toString())
+
+
+// // 48/////////////////////
+// let a = [1,3,2]
+// console.log(a.sort())
+
+// 49/////////////////////
+// let a = [100,2,20]
+// console.log(a.sort((a, b) => a - b))
+
+// 50/////////////////////
+// let a = ["A","B","C"]
+// console.log(a.join(" , "))
+
+// // 51/////////////////////
+// let a = [2025, 4, 14]
+// console.log(a.join("-"))
