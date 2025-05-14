@@ -152,7 +152,7 @@
 // }
 
 /////////////////////////////////////////////
-// 5-masala
+//
 let a =document.querySelector('#img');
 a.addEventListener('click', ()=>{
     alert("Hello World!");
