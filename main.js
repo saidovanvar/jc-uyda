@@ -158,23 +158,36 @@
 //     alert("Hello World!");
 // })
 
-// let input = document.querySelector(".input");
-// let button = document.querySelector("#button");
-// let div = document.createElement("div");
-// let box = document.querySelector(".box");
-//     button.addEventListener("click", () => {
-//         console.log(input.value);
-//         div.textContent = input.value;
-//         console.log(box)
-//         box.appendChild(div)
-//     })
-let a = prompt("son kriting")*1
-function getRandomNumber() {
-    return Math.floor(Math.random() * 10) + 1;
-}
-console.log("Tasodifiy son:", getRandomNumber());
-if (a===getRandomNumber()) {
-    console.log("tug'ri")
-}else{
-    console.log("no tug'ri");
-}
+let input = document.querySelector(".input");
+let button = document.querySelector("#button");
+let box = document.querySelector(".box");
+
+const randomNumber = Math.floor(Math.random() * 100) + 1;
+console.log("Yashirin son:", randomNumber); //
+
+button.addEventListener("click", () => {
+    let userValue = parseInt(input.value);
+
+    // Noto‘g‘ri kiritishdan himoya
+    if (isNaN(userValue) || userValue < 1 || userValue > 100) {
+        alert("Iltimos, 1 dan 100 gacha son kiriting.");
+        return;
+    }
+
+    // Har safar ranglarni olib tashlaymiz
+    input.classList.remove("correct", "wrong");
+
+    if (userValue === randomNumber) {
+        // ✅ To‘g‘ri
+        input.classList.add("correct");
+        box.textContent = `🎉 To‘g‘ri! Siz ${randomNumber} sonini topdingiz!`;
+        input.disabled = true;
+        button.disabled = true;
+    } else {
+        // ❌ Xato
+        input.classList.add("wrong");
+        box.textContent = `❌ Noto‘g‘ri. Qayta urinib ko‘ring.`;
+        input.value = "";
+        input.focus();
+    }
+});
