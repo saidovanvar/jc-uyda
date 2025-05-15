@@ -151,9 +151,30 @@
 //   }
 // }
 
-/////////////////////////////////////////////
-//
-let a =document.querySelector('#img');
-a.addEventListener('click', ()=>{
-    alert("Hello World!");
-})
+// /////////////////////////////////////////////
+// //
+// let a =document.querySelector('#img');
+// a.addEventListener('click', ()=>{
+//     alert("Hello World!");
+// })
+
+// let input = document.querySelector(".input");
+// let button = document.querySelector("#button");
+// let div = document.createElement("div");
+// let box = document.querySelector(".box");
+//     button.addEventListener("click", () => {
+//         console.log(input.value);
+//         div.textContent = input.value;
+//         console.log(box)
+//         box.appendChild(div)
+//     })
+let a = prompt("son kriting")*1
+function getRandomNumber() {
+    return Math.floor(Math.random() * 10) + 1;
+}
+console.log("Tasodifiy son:", getRandomNumber());
+if (a===getRandomNumber()) {
+    console.log("tug'ri")
+}else{
+    console.log("no tug'ri");
+}
